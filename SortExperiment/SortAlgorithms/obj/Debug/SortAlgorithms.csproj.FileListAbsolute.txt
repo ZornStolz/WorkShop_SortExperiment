@@ -1,0 +1,4 @@
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\SortAlgorithms\bin\Debug\SortAlgorithms.dll
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\SortAlgorithms\bin\Debug\SortAlgorithms.pdb
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\SortAlgorithms\obj\Debug\SortAlgorithms.dll
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\SortAlgorithms\obj\Debug\SortAlgorithms.pdb

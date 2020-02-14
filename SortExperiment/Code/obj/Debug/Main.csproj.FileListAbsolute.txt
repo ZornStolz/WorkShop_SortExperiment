@@ -3,7 +3,7 @@ C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_
 C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\Code\bin\Debug\Code.pdb
 C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\Code\bin\Debug\SortAlgorithms.dll
 C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\Code\bin\Debug\SortAlgorithms.pdb
-C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\Code\obj\Debug\Code.csprojAssemblyReference.cache
-C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\Code\obj\Debug\Code.csproj.CopyComplete
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\Code\obj\Debug\Main.csprojAssemblyReference.cache
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\Code\obj\Debug\Main.csproj.CopyComplete
 C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\Code\obj\Debug\Code.exe
 C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\WorkShop_SortExperiment\SortExperiment\Code\obj\Debug\Code.pdb

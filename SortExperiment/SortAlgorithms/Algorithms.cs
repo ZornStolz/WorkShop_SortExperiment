@@ -4,38 +4,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
-using SortAlgorithms;
 
-namespace Code
+namespace SortAlgorithms
 {
-    class Program
+    public class Algorithms
     {
+
         public static int[] countSort(int[] arr)
         {
 
             int[] count = new int[arr.Max() + 1];
             int[] sorted = new int[arr.Length];
 
-            foreach (int x in arr){
+            foreach (int x in arr)
+            {
                 count[x] += 1;
             }
 
-            for(int i = 1; i < count.Length; i++)
+            for (int i = 1; i < count.Length; i++)
             {
                 count[i] += count[i - 1];
             }
 
-            foreach (int x in arr){
-                sorted[count[x]-1] = x;
+            foreach (int x in arr)
+            {
+                sorted[count[x] - 1] = x;
                 count[x] -= 1;
             }
 
             return sorted;
         }
 
-            // A function to do counting sort of arr[] according to  
-            // the digit represented by exp.  
-            public static void countSortDigit(int[] arr, int exp)
+        // A function to do counting sort of arr[] according to  
+        // the digit represented by exp.  
+        private static void countSortDigit(int[] arr, int exp)
         {
             int[] output = new int[arr.Length]; // output array 
             int[] count = new int[arr.Max()];
@@ -78,9 +80,8 @@ namespace Code
 
         public static void Main()
         {
-
             int[] arr = { 170, 45, 75, 90, 802, 24, 2, 66 };
-            Algorithms.radixsort(arr);
+            radixsort(arr);
             for (int i = 0; i < arr.Length; i++)
                 Console.Write(arr[i] + " ");
 
@@ -88,12 +89,12 @@ namespace Code
 
             int[] arr2 = { 10, 4, 3, 5, 3, 2, 1, 1 };
 
-            arr2 = Algorithms.countSort(arr2);
+            arr2 = countSort(arr2);
             for (int i = 0; i < arr2.Length; i++)
                 Console.Write(arr2[i] + " ");
 
             Thread.Sleep(60000);
         }
+
     }
 }
-
