@@ -9,16 +9,27 @@ namespace Code
 {
     class Program
     {
-        public static void countSort(int[] arr)
+        public static int[] countSort(int[] arr)
         {
 
             int[] count = new int[arr.Max() + 1];
+            int[] sorted = new int[arr.Length];
 
             foreach (int x in arr){
                 count[x] += 1;
             }
 
-            
+            for(int i = 1; i < count.Length; i++)
+            {
+                count[i] += count[i - 1];
+            }
+
+            foreach (int x in arr){
+                sorted[count[x]-1] = x;
+                count[x] -= 1;
+            }
+
+            return sorted;
         }
 
             // A function to do counting sort of arr[] according to  
@@ -75,7 +86,7 @@ namespace Code
 
             int[] arr2 = { 10, 4, 3, 5, 3, 2, 1, 1 };
 
-            countSort(arr2);
+            arr2 = countSort(arr2);
             for (int i = 0; i < arr2.Length; i++)
                 Console.Write(arr2[i] + " ");
 
