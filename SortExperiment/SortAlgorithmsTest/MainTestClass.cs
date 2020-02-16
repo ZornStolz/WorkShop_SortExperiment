@@ -1,4 +1,5 @@
 ﻿using System;
+using SortAlgorithms;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace SortAlgorithmsTest
@@ -115,8 +116,11 @@ namespace SortAlgorithmsTest
         {
             setUp_1();
 
-            Assert.AreEqual(ascendentOrder, SortAlgorithms.Algorithms.countSort(ascendentOrder));
+            Assert.AreEqual(ascendentOrder, Algorithms.countSort(ascendentOrder));
+            Assert.AreEqual(ascendentOrder, Algorithms.countSort(descendentOrder));
+            
 
+            
         }
 
         /**
