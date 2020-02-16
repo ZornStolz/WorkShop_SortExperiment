@@ -117,7 +117,8 @@ namespace SortAlgorithmsTest
         {
             setUp_2();
 
-
+            Assert.AreEqual(ascendentOrder, Algorithms.countSort(ascendentOrder));
+            Assert.AreEqual(ascendentOrder, Algorithms.countSort(descendentOrder));
         }
 
         /**
@@ -128,7 +129,8 @@ namespace SortAlgorithmsTest
         {
             setUp_3();
 
-
+            Assert.AreEqual(ascendentOrder, Algorithms.countSort(ascendentOrder));
+            Assert.AreEqual(ascendentOrder, Algorithms.countSort(descendentOrder));
         }
     }
 }
