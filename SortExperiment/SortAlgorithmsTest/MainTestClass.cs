@@ -100,26 +100,12 @@ namespace SortAlgorithmsTest
          * This will 
          */
         [TestMethod]
-        public void TestBucketSort_()
-        {
-
-
-
-        }
-
-
-        /**
-         * This will 
-         */
-        [TestMethod]
-        public void TestBucketSort_1()
+        public void TestCountSort_1()
         {
             setUp_1();
 
             Assert.AreEqual(ascendentOrder, Algorithms.countSort(ascendentOrder));
             Assert.AreEqual(ascendentOrder, Algorithms.countSort(descendentOrder));
-            
-
             
         }
 
@@ -127,7 +113,7 @@ namespace SortAlgorithmsTest
        * This will 
        */
         [TestMethod]
-        public void TestBucketSort_2()
+        public void TestCountSort_2()
         {
             setUp_2();
 
@@ -138,7 +124,7 @@ namespace SortAlgorithmsTest
        * This will 
        */
         [TestMethod]
-        public void TestBucketSort_3()
+        public void TestCountSort_3()
         {
             setUp_3();
 
