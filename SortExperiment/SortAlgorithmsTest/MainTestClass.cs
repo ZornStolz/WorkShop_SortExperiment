@@ -100,37 +100,248 @@ namespace SortAlgorithmsTest
          * This will 
          */
         [TestMethod]
-        public void TestCountSort_1()
+        public void TestCountSort_1_1()
         {
             setUp_1();
-
             Assert.AreEqual(ascendentOrder, Algorithms.countSort(ascendentOrder));
-            Assert.AreEqual(ascendentOrder, Algorithms.countSort(descendentOrder));
-            
         }
 
         /**
-       * This will 
-       */
+        * This will 
+        */
         [TestMethod]
-        public void TestCountSort_2()
+        public void TestCountSort_1_2()
+        {
+            setUp_1();
+            Assert.AreEqual(ascendentOrder, Algorithms.countSort(descendentOrder));
+        }
+
+        /**
+        * This will 
+        */
+        [TestMethod]
+        public void TestCountSort_1_3()
+        {
+            Algorithms.countSort(randomized);
+
+            bool test = true;
+
+            for (int i = 1; i < size_1; i++)
+            {
+                if (randomized[i - 1] > randomized[i])
+                    test = false;
+            }
+
+            Assert.IsTrue(test);
+        }
+
+        /**
+        * This will 
+        */
+        [TestMethod]
+        public void TestCountSort_2_1()
         {
             setUp_2();
-
             Assert.AreEqual(ascendentOrder, Algorithms.countSort(ascendentOrder));
+        }
+
+        /**
+        * This will 
+        */
+        [TestMethod]
+        public void TestCountSort_2_2()
+        {
+            setUp_2();
             Assert.AreEqual(ascendentOrder, Algorithms.countSort(descendentOrder));
+        }
+
+        /**
+        * This will 
+        */
+        [TestMethod]
+        public void TestCountSort_2_3()
+        {
+            setUp_2();
+            Algorithms.countSort(randomized);
+
+            bool test = true;
+
+            for (int i = 1; i < size_2; i++)
+            {
+                if (randomized[i - 1] > randomized[i])
+                    test = false;
+            }
+
+            Assert.IsTrue(test);
+        }
+
+        /**
+        * This will 
+        */
+        [TestMethod]
+        public void TestCountSort_3_1()
+        {
+            setUp_3();
+            Assert.AreEqual(ascendentOrder, Algorithms.countSort(ascendentOrder));
+        }
+
+        /**
+        * This will 
+        */
+        [TestMethod]
+        public void TestCountSort_3_2()
+        {
+            setUp_3();
+            Assert.AreEqual(ascendentOrder, Algorithms.countSort(descendentOrder));
+        }
+
+        /**
+        * This will 
+        */
+        [TestMethod]
+        public void TestCountSort_3_3()
+        {
+            setUp_3();
+            Algorithms.countSort(randomized);
+
+            bool test = true;
+
+            for (int i = 1; i < size_3; i++)
+            {
+                if (randomized[i - 1] > randomized[i])
+                    test = false;
+            }
+
+            Assert.IsTrue(test);
         }
 
         /**
        * This will 
        */
         [TestMethod]
-        public void TestCountSort_3()
+        public void TestRadixSort_1_1()
+        {
+            setUp_1();
+            int[] backup = ascendentOrder;
+            Algorithms.radixsort(ascendentOrder);
+            Assert.AreEqual(backup, ascendentOrder);
+        }
+
+        /**
+       * This will 
+       */
+        [TestMethod]
+        public void TestRadixSort_1_2()
+        {
+            setUp_1();
+            Algorithms.radixsort(descendentOrder);
+            Assert.AreEqual(ascendentOrder, descendentOrder);
+        }
+
+        /**
+       * This will 
+       */
+        [TestMethod]
+        public void TestRadixSort_1_3()
+        {
+            setUp_1();
+            Algorithms.radixsort(randomized);
+
+            bool test = true;
+
+            for (int i = 1; i < size_1; i++)
+            {
+                if (randomized[i - 1] > randomized[i])
+                    test = false;
+            }
+
+            Assert.IsTrue(test);
+        }
+
+        /**
+       * This will 
+       */
+        [TestMethod]
+        public void TestRadixSort_2_1()
+        {
+            setUp_2();
+            int[] backup = ascendentOrder;
+            Algorithms.radixsort(ascendentOrder);
+            Assert.AreEqual(backup, ascendentOrder);
+        }
+
+        /**
+       * This will 
+       */
+        [TestMethod]
+        public void TestRadixSort_2_2()
+        {
+            setUp_2();
+            Algorithms.radixsort(descendentOrder);
+            Assert.AreEqual(ascendentOrder, descendentOrder);
+        }
+
+        /**
+       * This will 
+       */
+        [TestMethod]
+        public void TestRadixSort_2_3()
+        {
+            setUp_2();
+            Algorithms.radixsort(randomized);
+
+            bool test = true;
+
+            for (int i = 1; i < size_2; i++)
+            {
+                if (randomized[i - 1] > randomized[i])
+                    test = false;
+            }
+
+            Assert.IsTrue(test);
+        }
+
+        /**
+       * This will 
+       */
+        [TestMethod]
+        public void TestRadixSort_3_1()
         {
             setUp_3();
+            int[] backup = ascendentOrder;
+            Algorithms.radixsort(ascendentOrder);
+            Assert.AreEqual(backup, ascendentOrder);
+        }
 
-            Assert.AreEqual(ascendentOrder, Algorithms.countSort(ascendentOrder));
-            Assert.AreEqual(ascendentOrder, Algorithms.countSort(descendentOrder));
+        /**
+       * This will 
+       */
+        [TestMethod]
+        public void TestRadixSort_3_2()
+        {
+            setUp_3();
+            Algorithms.radixsort(descendentOrder);
+            Assert.AreEqual(ascendentOrder, descendentOrder);
+        }
+
+        /**
+        * This will 
+        */
+        [TestMethod]
+        public void TestRadixSort_3_3()
+        {
+            setUp_3();
+            Algorithms.radixsort(randomized);
+
+            bool test = true;
+
+            for (int i = 1; i < size_3; i++)
+            {
+                if (randomized[i - 1] > randomized[i])
+                    test = false;
+            }
+
+            Assert.IsTrue(test);
         }
     }
 }
