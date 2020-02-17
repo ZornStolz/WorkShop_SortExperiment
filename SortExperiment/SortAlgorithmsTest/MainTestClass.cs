@@ -129,13 +129,12 @@ namespace SortAlgorithmsTest
         public void TestCountSort_1_3()
         {
             setUp_1();
-            Algorithms.countSort(randomized);
-
+            int[] sorted = Algorithms.countSort(randomized);
             bool test = true;
 
             for (int i = 1; i < size_1; i++)
             {
-                if (randomized[i - 1] > randomized[i])
+                if (sorted[(i-1)] > sorted[i])
                     test = false;
             }
 
@@ -176,12 +175,12 @@ namespace SortAlgorithmsTest
         {
             setUp_2();
             Algorithms.countSort(randomized);
-
+            int[] sorted = Algorithms.countSort(randomized);
             bool test = true;
 
             for (int i = 1; i < size_2; i++)
             {
-                if (randomized[i - 1] > randomized[i])
+                if (sorted[i - 1] > sorted[i])
                     test = false;
             }
 
@@ -222,12 +221,12 @@ namespace SortAlgorithmsTest
         {
             setUp_3();
             Algorithms.countSort(randomized);
-
+            int[] sorted = Algorithms.countSort(randomized);
             bool test = true;
 
             for (int i = 1; i < size_3; i++)
             {
-                if (randomized[i - 1] > randomized[i])
+                if (sorted[i - 1] > sorted[i])
                     test = false;
             }
 
