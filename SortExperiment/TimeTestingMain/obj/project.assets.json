@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "D:\\Usuarios\\1005744296\\.nuget\\packages\\": {}
+    "D:\\Usuarios\\1143875103\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Usuarios\\1005744296\\Source\\Repos\\ZornStolz\\WorkShop_SortExperiment\\SortExperiment\\TimeTestingMain\\TimeTestingMain.csproj",
+      "projectUniqueName": "D:\\Usuarios\\1143875103\\Desktop\\WorkShop_SortExperiment\\SortExperiment\\TimeTestingMain\\TimeTestingMain.csproj",
       "projectName": "TimeTestingMain",
-      "projectPath": "D:\\Usuarios\\1005744296\\Source\\Repos\\ZornStolz\\WorkShop_SortExperiment\\SortExperiment\\TimeTestingMain\\TimeTestingMain.csproj",
-      "packagesPath": "D:\\Usuarios\\1005744296\\.nuget\\packages\\",
-      "outputPath": "D:\\Usuarios\\1005744296\\Source\\Repos\\ZornStolz\\WorkShop_SortExperiment\\SortExperiment\\TimeTestingMain\\obj\\",
+      "projectPath": "D:\\Usuarios\\1143875103\\Desktop\\WorkShop_SortExperiment\\SortExperiment\\TimeTestingMain\\TimeTestingMain.csproj",
+      "packagesPath": "D:\\Usuarios\\1143875103\\.nuget\\packages\\",
+      "outputPath": "D:\\Usuarios\\1143875103\\Desktop\\WorkShop_SortExperiment\\SortExperiment\\TimeTestingMain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\Usuarios\\1005744296\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Usuarios\\1143875103\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
