@@ -103,7 +103,10 @@ namespace SortAlgorithmsTest
         public void TestCountSort_1_1()
         {
             setUp_1();
-            Assert.AreEqual(ascendentOrder, Algorithms.countSort(ascendentOrder));
+            Assert.AreEqual(ascendentOrder[0], Algorithms.countSort(ascendentOrder)[0]);
+            Assert.AreEqual(ascendentOrder[3], Algorithms.countSort(ascendentOrder)[3]);
+            Assert.AreEqual(ascendentOrder[5], Algorithms.countSort(ascendentOrder)[5]);
+            Assert.AreEqual(ascendentOrder[8], Algorithms.countSort(ascendentOrder)[8]);
         }
 
         /**
@@ -113,7 +116,10 @@ namespace SortAlgorithmsTest
         public void TestCountSort_1_2()
         {
             setUp_1();
-            Assert.AreEqual(ascendentOrder, Algorithms.countSort(descendentOrder));
+            Assert.AreEqual(ascendentOrder[0], Algorithms.countSort(descendentOrder)[0]);
+            Assert.AreEqual(ascendentOrder[3], Algorithms.countSort(descendentOrder)[3]);
+            Assert.AreEqual(ascendentOrder[5], Algorithms.countSort(descendentOrder)[5]);
+            Assert.AreEqual(ascendentOrder[8], Algorithms.countSort(descendentOrder)[8]);
         }
 
         /**
@@ -122,6 +128,7 @@ namespace SortAlgorithmsTest
         [TestMethod]
         public void TestCountSort_1_3()
         {
+            setUp_1();
             Algorithms.countSort(randomized);
 
             bool test = true;
@@ -142,7 +149,10 @@ namespace SortAlgorithmsTest
         public void TestCountSort_2_1()
         {
             setUp_2();
-            Assert.AreEqual(ascendentOrder, Algorithms.countSort(ascendentOrder));
+            Assert.AreEqual(ascendentOrder[0], Algorithms.countSort(ascendentOrder)[0]);
+            Assert.AreEqual(ascendentOrder[300], Algorithms.countSort(ascendentOrder)[300]);
+            Assert.AreEqual(ascendentOrder[500], Algorithms.countSort(ascendentOrder)[500]);
+            Assert.AreEqual(ascendentOrder[800], Algorithms.countSort(ascendentOrder)[800]);
         }
 
         /**
@@ -152,7 +162,10 @@ namespace SortAlgorithmsTest
         public void TestCountSort_2_2()
         {
             setUp_2();
-            Assert.AreEqual(ascendentOrder, Algorithms.countSort(descendentOrder));
+            Assert.AreEqual(ascendentOrder[0], Algorithms.countSort(ascendentOrder)[0]);
+            Assert.AreEqual(ascendentOrder[300], Algorithms.countSort(ascendentOrder)[300]);
+            Assert.AreEqual(ascendentOrder[500], Algorithms.countSort(ascendentOrder)[500]);
+            Assert.AreEqual(ascendentOrder[800], Algorithms.countSort(ascendentOrder)[800]);
         }
 
         /**
@@ -182,7 +195,10 @@ namespace SortAlgorithmsTest
         public void TestCountSort_3_1()
         {
             setUp_3();
-            Assert.AreEqual(ascendentOrder, Algorithms.countSort(ascendentOrder));
+            Assert.AreEqual(ascendentOrder[0], Algorithms.countSort(ascendentOrder)[0]);
+            Assert.AreEqual(ascendentOrder[30000], Algorithms.countSort(ascendentOrder)[30000]);
+            Assert.AreEqual(ascendentOrder[50000], Algorithms.countSort(ascendentOrder)[50000]);
+            Assert.AreEqual(ascendentOrder[80000], Algorithms.countSort(ascendentOrder)[80000]);
         }
 
         /**
@@ -192,7 +208,10 @@ namespace SortAlgorithmsTest
         public void TestCountSort_3_2()
         {
             setUp_3();
-            Assert.AreEqual(ascendentOrder, Algorithms.countSort(descendentOrder));
+            Assert.AreEqual(ascendentOrder[0], Algorithms.countSort(ascendentOrder)[0]);
+            Assert.AreEqual(ascendentOrder[30000], Algorithms.countSort(ascendentOrder)[30000]);
+            Assert.AreEqual(ascendentOrder[50000], Algorithms.countSort(ascendentOrder)[50000]);
+            Assert.AreEqual(ascendentOrder[80000], Algorithms.countSort(ascendentOrder)[80000]);
         }
 
         /**
@@ -224,7 +243,10 @@ namespace SortAlgorithmsTest
             setUp_1();
             int[] backup = ascendentOrder;
             Algorithms.radixsort(ascendentOrder);
-            Assert.AreEqual(backup, ascendentOrder);
+            Assert.AreEqual(backup[0], ascendentOrder[0]);
+            Assert.AreEqual(backup[3], ascendentOrder[3]);
+            Assert.AreEqual(backup[5], ascendentOrder[5]);
+            Assert.AreEqual(backup[8], ascendentOrder[8]);
         }
 
         /**
@@ -235,7 +257,10 @@ namespace SortAlgorithmsTest
         {
             setUp_1();
             Algorithms.radixsort(descendentOrder);
-            Assert.AreEqual(ascendentOrder, descendentOrder);
+            Assert.AreEqual(ascendentOrder[0], descendentOrder[0]);
+            Assert.AreEqual(ascendentOrder[3], descendentOrder[3]);
+            Assert.AreEqual(ascendentOrder[5], descendentOrder[5]);
+            Assert.AreEqual(ascendentOrder[8], descendentOrder[8]);
         }
 
         /**
@@ -267,7 +292,10 @@ namespace SortAlgorithmsTest
             setUp_2();
             int[] backup = ascendentOrder;
             Algorithms.radixsort(ascendentOrder);
-            Assert.AreEqual(backup, ascendentOrder);
+            Assert.AreEqual(backup[0], ascendentOrder[0]);
+            Assert.AreEqual(backup[300], ascendentOrder[300]);
+            Assert.AreEqual(backup[500], ascendentOrder[500]);
+            Assert.AreEqual(backup[800], ascendentOrder[800]);
         }
 
         /**
@@ -278,7 +306,10 @@ namespace SortAlgorithmsTest
         {
             setUp_2();
             Algorithms.radixsort(descendentOrder);
-            Assert.AreEqual(ascendentOrder, descendentOrder);
+            Assert.AreEqual(ascendentOrder[0], descendentOrder[0]);
+            Assert.AreEqual(ascendentOrder[300], descendentOrder[300]);
+            Assert.AreEqual(ascendentOrder[500], descendentOrder[500]);
+            Assert.AreEqual(ascendentOrder[800], descendentOrder[800]);
         }
 
         /**
@@ -310,7 +341,10 @@ namespace SortAlgorithmsTest
             setUp_3();
             int[] backup = ascendentOrder;
             Algorithms.radixsort(ascendentOrder);
-            Assert.AreEqual(backup, ascendentOrder);
+            Assert.AreEqual(backup[0], ascendentOrder[0]);
+            Assert.AreEqual(backup[30000], ascendentOrder[30000]);
+            Assert.AreEqual(backup[50000], ascendentOrder[50000]);
+            Assert.AreEqual(backup[80000], ascendentOrder[80000]);
         }
 
         /**
@@ -321,7 +355,10 @@ namespace SortAlgorithmsTest
         {
             setUp_3();
             Algorithms.radixsort(descendentOrder);
-            Assert.AreEqual(ascendentOrder, descendentOrder);
+            Assert.AreEqual(ascendentOrder[0], descendentOrder[0]);
+            Assert.AreEqual(ascendentOrder[300], descendentOrder[300]);
+            Assert.AreEqual(ascendentOrder[500], descendentOrder[500]);
+            Assert.AreEqual(ascendentOrder[800], descendentOrder[800]);
         }
 
         /**

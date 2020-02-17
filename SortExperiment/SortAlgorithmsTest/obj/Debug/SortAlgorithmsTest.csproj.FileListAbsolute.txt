@@ -28,3 +28,21 @@ C:\Users\Jhon Edward\Source\Repos\WorkShop_SortExperiment\SortExperiment\SortAlg
 C:\Users\Jhon Edward\Source\Repos\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\obj\Debug\SortAlgorithmsTest.csproj.CopyComplete
 C:\Users\Jhon Edward\Source\Repos\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\obj\Debug\SortAlgorithmsTest.dll
 C:\Users\Jhon Edward\Source\Repos\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\obj\Debug\SortAlgorithmsTest.pdb
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\SortAlgorithmsTest.dll
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\SortAlgorithmsTest.pdb
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\SortAlgorithms.dll
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\SortAlgorithms.pdb
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\obj\Debug\SortAlgorithmsTest.csprojAssemblyReference.cache
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\obj\Debug\SortAlgorithmsTest.csproj.CopyComplete
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\obj\Debug\SortAlgorithmsTest.dll
+D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithmsTest\obj\Debug\SortAlgorithmsTest.pdb
