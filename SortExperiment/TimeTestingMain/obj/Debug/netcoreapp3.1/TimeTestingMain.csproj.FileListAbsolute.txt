@@ -1,0 +1,10 @@
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\TimeTestingMain\bin\Debug\netcoreapp3.1\TimeTestingMain.exe
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\TimeTestingMain\bin\Debug\netcoreapp3.1\TimeTestingMain.deps.json
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\TimeTestingMain\bin\Debug\netcoreapp3.1\TimeTestingMain.runtimeconfig.json
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\TimeTestingMain\bin\Debug\netcoreapp3.1\TimeTestingMain.runtimeconfig.dev.json
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\TimeTestingMain\bin\Debug\netcoreapp3.1\TimeTestingMain.dll
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\TimeTestingMain\bin\Debug\netcoreapp3.1\TimeTestingMain.pdb
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\TimeTestingMain\obj\Debug\netcoreapp3.1\TimeTestingMain.AssemblyInfoInputs.cache
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\TimeTestingMain\obj\Debug\netcoreapp3.1\TimeTestingMain.AssemblyInfo.cs
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\TimeTestingMain\obj\Debug\netcoreapp3.1\TimeTestingMain.dll
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\TimeTestingMain\obj\Debug\netcoreapp3.1\TimeTestingMain.pdb

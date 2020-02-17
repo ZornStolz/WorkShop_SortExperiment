@@ -4,8 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAlgorithms", "SortAlgorithms\SortAlgorithms.csproj", "{A08C2F71-2279-46A9-A7DA-8C2B3F4F6301}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AAAB2574-A38F-441B-B589-AB17BA788906} = {AAAB2574-A38F-441B-B589-AB17BA788906}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAlgorithmsTest", "SortAlgorithmsTest\SortAlgorithmsTest.csproj", "{2B671CA9-2542-400B-BAF5-1E126D057FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTestingMain", "TimeTestingMain\TimeTestingMain.csproj", "{AAAB2574-A38F-441B-B589-AB17BA788906}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{2B671CA9-2542-400B-BAF5-1E126D057FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B671CA9-2542-400B-BAF5-1E126D057FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B671CA9-2542-400B-BAF5-1E126D057FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAAB2574-A38F-441B-B589-AB17BA788906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAB2574-A38F-441B-B589-AB17BA788906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAB2574-A38F-441B-B589-AB17BA788906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAB2574-A38F-441B-B589-AB17BA788906}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

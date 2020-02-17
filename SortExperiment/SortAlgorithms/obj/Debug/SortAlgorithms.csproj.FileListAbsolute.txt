@@ -13,3 +13,8 @@ D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgori
 D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithms\obj\Debug\SortAlgorithms.csprojAssemblyReference.cache
 D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithms\obj\Debug\SortAlgorithms.dll
 D:\Usuarios\1143875103\Desktop\WorkShop_SortExperiment\SortExperiment\SortAlgorithms\obj\Debug\SortAlgorithms.pdb
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\SortAlgorithms\bin\Debug\SortAlgorithms.dll
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\SortAlgorithms\bin\Debug\SortAlgorithms.pdb
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\SortAlgorithms\obj\Debug\SortAlgorithms.csprojAssemblyReference.cache
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\SortAlgorithms\obj\Debug\SortAlgorithms.dll
+D:\Usuarios\1005744296\Source\Repos\ZornStolz\WorkShop_SortExperiment\SortExperiment\SortAlgorithms\obj\Debug\SortAlgorithms.pdb
